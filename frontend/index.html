@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillSync AI — AI Career Intelligence Platform</title>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Vanilla CSS3 Design System -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- React & Babel CDNs -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState, useEffect, useRef } = React;
+    const API_BASE = "/api";
+
+    const TARGET_ROLES = [
+      { role: "Software Engineer", category: "Engineering" },
+      { role: "Generative AI Engineer", category: "AI & ML" },
+      { role: "Data Analyst", category: "Data & Analytics" },
+      { role: "Data Scientist", category: "AI & ML" },
+      { role: "Frontend Developer", category: "Engineering" },
+      { role: "DevOps / Cloud Engineer", category: "Infrastructure" }
+    ];
+
+    const DEMO_RESUMES = {
+      "Data Analyst": {
+        title: "Data Analyst Resume",
+        desc: "SQL queries, Tableau dashboards & Python Pandas data modeling.",
+        text: `Alex Rivera - Data Analyst Candidate
+Skills: Python, SQL, Excel, Data Visualization, Problem Solving.
+Experience:
+- Formulated complex SQL queries to extract data insights from business databases.
+- Built interactive dashboards in Excel and analyzed trends.
+Projects:
+- Customer Sales Dashboard: Cleaned raw data and created summary charts.`
+      },
+      "Generative AI Engineer": {
+        title: "GenAI Engineer Resume",
+        desc: "PyTorch transformers, FastAPI microservices & RAG pipelines.",
+        text: `Samantha Lee - AI & Machine Learning Enthusiast
+Skills: Python, PyTorch, Fast API, Git, Linear Algebra, Docker.
+Experience:
+- Fine-tuned transformer models for text classification.
+- Built REST APIs using FastAPI for model inference.
+Projects:
+- Document Q&A Bot: Prototype RAG pipeline using vector embeddings.`
+      },
+      "Software Engineer": {
+        title: "Software Engineer Resume",
+        desc: "Full-stack React, TypeScript, Python REST APIs & SQLite.",
+        text: `Jordan Smith - Computer Science Senior
+Skills: Java, JavaScript, Python, HTML, CSS, Next.js, Tailwind CSS, Data Structures & Algorithms, DBMS, Operating Systems, SQL, MySQL, Git, GitHub, Google Gemini API, Prompt Engineering, REST APIs, Framer Motion, Responsive UI Design, UI/UX Design.
+Experience:
+- Full Stack Developer Intern building UI components in React and Next.js.
+- Developed REST APIs in FastAPI and integrated Google Gemini API.
+Projects:
+- AI SkillSync SaaS: Full stack application with Next.js, Tailwind CSS, and MySQL.`
+      }
+    };
+
+    // Default Fallback Data for instant tab previewing
+    const DEFAULT_PROFILE = {
+      experience_level: "Entry-Level Candidate",
+      target_role_recommendation: "Software Engineer",
+      summary: "Extracted candidate technical profile demonstrating proficiency in web application development, data modeling, REST API engineering, and database management.",
+      skills: [
+        "Java", "Python", "JavaScript", "HTML", "CSS", "Next.js", "Tailwind CSS",
+        "Data Structures & Algorithms", "DBMS", "Operating Systems", "SQL", "MySQL",
+        "Git", "GitHub", "Google Gemini API", "Prompt Engineering", "REST APIs",
+        "Framer Motion", "Responsive UI Design", "UI/UX Design"
+      ],
+      categorized_skills: {
+        programming_languages: ["Java", "Python", "JavaScript"],
+        frontend: ["HTML", "CSS", "Tailwind CSS", "Framer Motion", "Responsive UI Design"],
+        frameworks: ["Next.js", "React"],
+        databases: ["SQL", "MySQL", "DBMS"],
+        gen_ai: ["Google Gemini API", "Prompt Engineering"],
+        apis: ["REST APIs"],
+        tools: ["Git", "GitHub"],
+        core_cs: ["Data Structures & Algorithms", "Operating Systems"],
+        ui_ux: ["UI/UX Design"]
+      }
+    };
+
+    const DEFAULT_GAP_DATA = {
+      target_role: "Software Engineer",
+      total_matched_jobs: 120,
+      match_score_percentage: 82,
+      missing_skills_ranked: [
+        { skill: "Docker & Containerization", frequency_count: 88, demand_percentage: 73, importance_level: "High" },
+        { skill: "System Architecture & Scalability", frequency_count: 76, demand_percentage: 63, importance_level: "High" },
+        { skill: "PostgreSQL & Vector Indexes", frequency_count: 62, demand_percentage: 52, importance_level: "Medium" },
+        { skill: "CI/CD & Cloud Deployment (AWS)", frequency_count: 55, demand_percentage: 46, importance_level: "Medium" }
+      ]
+    };
+
+    const DEFAULT_ROADMAP_DATA = {
+      duration_weeks: 4,
+      target_role: "Software Engineer",
+      overall_goal: "Bridge key market skill gaps in Containerization, Vector Databases, and Cloud Architecture.",
+      weekly_schedule: [
+        {
+          week: 1,
+          title: "Docker & Containerization Sprints",
+          target_skills: ["Docker", "Docker Compose", "Container Networks"],
+          learning_resources: ["Docker Official Docs", "Interactive CLI Labs"],
+          actionable_project: "Containerize a full-stack FastAPI application with Docker Compose."
+        },
+        {
+          week: 2,
+          title: "Vector Databases & Advanced SQL",
+          target_skills: ["PostgreSQL", "pgvector", "FAISS Indexing"],
+          learning_resources: ["PostgreSQL Performance Tuning", "FAISS Vector Search Guide"],
+          actionable_project: "Build a high-performance vector search engine endpoint for fast query retrieval."
+        },
+        {
+          week: 3,
+          title: "System Architecture & CI/CD Automation",
+          target_skills: ["System Design", "GitHub Actions", "AWS Elastic Beanstalk"],
+          learning_resources: ["System Design Primer", "CI/CD Deployment Workflows"],
+          actionable_project: "Set up an automated GitHub Actions deployment pipeline for API validation."
+        },
+        {
+          week: 4,
+          title: "Capstone Portfolio Sprint & Resume Pitch",
+          target_skills: ["End-to-End System Integration", "Performance Benchmarking"],
+          learning_resources: ["Engineering Resume Refactoring", "Live Product Demo Guide"],
+          actionable_project: "Deploy full production-ready microservices architecture."
+        }
+      ]
+    };
+
+    // Custom SaaS Dropdown Component
+    function CustomRoleDropdown({ targetRole, setTargetRole }) {
+      const [isOpen, setIsOpen] = useState(false);
+      const containerRef = useRef(null);
+
+      const selectedObj = TARGET_ROLES.find(r => r.role === targetRole) || TARGET_ROLES[0];
+
+      useEffect(() => {
+        function handleClickOutside(event) {
+          if (containerRef.current && !containerRef.current.contains(event.target)) {
+            setIsOpen(false);
+          }
+        }
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
+      }, []);
+
+      return (
+        <div className={`custom-dropdown-container ${isOpen ? 'open' : ''}`} ref={containerRef}>
+          <div
+            className="dropdown-trigger"
+            onClick={() => setIsOpen(!isOpen)}
+            tabIndex={0}
+            onKeyDown={(e) => e.key === 'Enter' && setIsOpen(!isOpen)}
+          >
+            <div className="selected-value-wrapper">
+              <span className="selected-role-name">{selectedObj.role}</span>
+              <span className="selected-category-name">{selectedObj.category}</span>
+            </div>
+            <span className="chevron-icon">▾</span>
+          </div>
+
+          <div className="dropdown-menu">
+            {TARGET_ROLES.map((item) => {
+              const isSelected = item.role === targetRole;
+              return (
+                <div
+                  key={item.role}
+                  className={`dropdown-option ${isSelected ? 'selected' : ''}`}
+                  onClick={() => {
+                    setTargetRole(item.role);
+                    setIsOpen(false);
+                  }}
+                >
+                  <div className="option-text-group">
+                    <span className="option-role">{item.role}</span>
+                    <span className="option-category">{item.category}</span>
+                  </div>
+                  <span className="check-icon">✓</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    function App() {
+      const [currentStep, setCurrentStep] = useState(1);
+      const [targetRole, setTargetRole] = useState("Software Engineer");
+      const [resumeText, setResumeText] = useState("");
+      const [file, setFile] = useState(null);
+      const [loading, setLoading] = useState(false);
+      const [error, setError] = useState("");
+
+      const [profile, setProfile] = useState(null);
+      const [gapData, setGapData] = useState(null);
+      const [roadmapData, setRoadmapData] = useState(null);
+      const [completedWeeks, setCompletedWeeks] = useState({});
+
+      useEffect(() => {
+        const saved = localStorage.getItem("skillsync_completed_weeks");
+        if (saved) {
+          try { setCompletedWeeks(JSON.parse(saved)); } catch (e) {}
+        }
+      }, []);
+
+      const toggleWeekCompletion = (weekNum) => {
+        const updated = { ...completedWeeks, [weekNum]: !completedWeeks[weekNum] };
+        setCompletedWeeks(updated);
+        localStorage.setItem("skillsync_completed_weeks", JSON.stringify(updated));
+      };
+
+      const handleFileUpload = async (e) => {
+        const uploadedFile = e.target.files[0];
+        if (!uploadedFile) return;
+
+        const allowedExtensions = ["pdf", "docx", "doc", "rtf", "odt"];
+        const ext = uploadedFile.name.split('.').pop().toLowerCase();
+        if (!allowedExtensions.includes(ext)) {
+          setError("Unsupported file format. Please upload a PDF, DOCX, DOC, RTF, or ODT file.");
+          return;
+        }
+
+        if (uploadedFile.size > 5 * 1024 * 1024) {
+          setError("File size exceeds the 5 MB maximum limit.");
+          return;
+        }
+
+        resetAnalysis();
+        setFile(uploadedFile);
+        setLoading(true);
+        setError("");
+
+        try {
+          const formData = new FormData();
+          formData.append("file", uploadedFile);
+          const res = await fetch(`${API_BASE}/resumes/parse`, { method: "POST", body: formData });
+          if (!res.ok) {
+            const errData = await res.json().catch(() => ({}));
+            throw new Error(errData.detail || "Failed to parse resume file.");
+          }
+          const data = await res.json();
+          setResumeText(data.text);
+        } catch (err) {
+          setError(err.message || "Error reading uploaded file.");
+        } finally {
+          setLoading(false);
+        }
+      };
+
+      // Unified Single-Flight Ultra Fast Pipeline Execution (< 300ms)
+      const runFullPipeline = async () => {
+        if (!resumeText.trim()) {
+          setError("Please upload a resume file or paste text content first.");
+          return;
+        }
+
+        setLoading(true);
+        setError("");
+
+        try {
+          const pipelineRes = await fetch(`${API_BASE}/analysis/full-pipeline`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ resume_text: resumeText, target_role: targetRole })
+          });
+
+          if (!pipelineRes.ok) throw new Error("Pipeline execution failed.");
+          const pipelineData = await pipelineRes.json();
+
+          setProfile(pipelineData.profile);
+          setGapData(pipelineData.gap_analysis);
+          setRoadmapData(pipelineData.roadmap);
+
+          setCurrentStep(2);
+        } catch (err) {
+          setError(err.message || "An unexpected error occurred.");
+        } finally {
+          setLoading(false);
+        }
+      };
+
+      const resetAnalysis = () => {
+        setProfile(null);
+        setGapData(null);
+        setRoadmapData(null);
+        setCurrentStep(1);
+      };
+
+      const hasAnalysisResults = !!(profile && gapData && roadmapData);
+
+      useEffect(() => {
+        if (!hasAnalysisResults && currentStep > 1) {
+          setCurrentStep(1);
+        }
+      }, [hasAnalysisResults, currentStep]);
+
+      const activeProfile = profile;
+      const activeGapData = gapData;
+      const activeRoadmapData = roadmapData;
+
+      const calculateProgressPercent = () => {
+        if (!activeRoadmapData || !activeRoadmapData.weekly_schedule) return 0;
+        const total = activeRoadmapData.weekly_schedule.length;
+        if (total === 0) return 0;
+        const doneCount = Object.values(completedWeeks).filter(Boolean).length;
+        return Math.round((doneCount / total) * 100);
+      };
+
+      return (
+        <div>
+          {/* Header & Stepper */}
+          <header className="header">
+            <div className="container header-inner">
+              <div className="brand" onClick={() => setCurrentStep(1)}>
+                <div className="brand-icon">✨</div>
+                <div>
+                  <div className="brand-title">
+                    SkillSync AI <span className="brand-badge">PRO</span>
+                  </div>
+                  <div className="brand-subtitle">AI Career Intelligence Platform</div>
+                </div>
+              </div>
+
+              <div className="stepper">
+                {[
+                  { num: 1, label: "Resume Upload" },
+                  { num: 2, label: "Skill Profile" },
+                  { num: 3, label: "Gap Analysis" },
+                  { num: 4, label: "Learning Roadmap" }
+                ].map((step) => {
+                  const isCurrent = currentStep === step.num;
+                  const isCompleted = currentStep > step.num;
+                  const isDisabled = step.num > 1 && !hasAnalysisResults;
+
+                  return (
+                    <button
+                      key={step.num}
+                      disabled={isDisabled}
+                      onClick={() => {
+                        if (isDisabled) return;
+                        setCurrentStep(step.num);
+                      }}
+                      className={`step-btn ${isCurrent ? 'active' : isCompleted ? 'completed' : ''} ${isDisabled ? 'disabled' : ''}`}
+                      title={isDisabled ? "Please upload your resume and run AI analysis first" : ""}
+                    >
+                      <span className="step-num">{isCompleted ? '✓' : step.num}</span>
+                      <span>{step.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </header>
+
+          <main className="container" style={{ paddingTop: '24px', paddingBottom: '48px' }}>
+            {error && (
+              <div style={{ padding: '16px', borderRadius: '12px', background: 'rgba(239, 68, 68, 0.15)', border: '1px solid rgba(239, 68, 68, 0.3)', color: '#FCA5A5', marginBottom: '24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <span>{error}</span>
+                <button onClick={() => setError("")} style={{ background: 'none', border: 'none', color: '#FFF', cursor: 'pointer', fontWeight: 'bold' }}>✕</button>
+              </div>
+            )}
+
+            {/* STEP 1: RESUME UPLOAD */}
+            {currentStep === 1 && (
+              <div>
+                {/* Hero Section */}
+                <section className="hero">
+                  <h1 className="hero-title">
+                    Turn Your Resume into an <span className="gradient-text">AI Career Roadmap</span>
+                  </h1>
+                  <p className="hero-subtitle">
+                    Upload your resume and let AI compare it against real job descriptions to identify missing skills and generate a personalized learning roadmap.
+                  </p>
+                </section>
+
+                {/* 35 / 65 Main Grid */}
+                <div className="main-grid">
+                  {/* Left Panel (35%) */}
+                  <div className="left-panel">
+                    {/* Career Goal Card */}
+                    <div className="card card-career-goal">
+                      <h3 className="card-title">
+                        <span className="title-dot"></span> Career Goal
+                      </h3>
+                      <p className="card-subtitle">Select the target role for skill-gap comparison.</p>
+                      
+                      {/* Premium AI SaaS Custom Dropdown */}
+                      <CustomRoleDropdown targetRole={targetRole} setTargetRole={setTargetRole} />
+                    </div>
+
+                    {/* Sample Resumes Card */}
+                    <div className="card">
+                      <div className="section-heading">
+                        <span>🚀</span> Sample Resumes
+                      </div>
+                      <p className="card-subtitle" style={{ marginBottom: '16px' }}>Click to load a pre-populated candidate resume.</p>
+
+                      <div className="sample-list">
+                        {Object.entries(DEMO_RESUMES).map(([roleKey, data]) => (
+                          <div
+                            key={roleKey}
+                            onClick={() => {
+                              setFile(null);
+                              setResumeText(data.text);
+                              resetAnalysis();
+                            }}
+                            className="sample-card"
+                          >
+                            <div className="sample-icon">📄</div>
+                            <div className="sample-info">
+                              <div className="sample-header">
+                                <div className="sample-title">{data.title}</div>
+                                <span className="load-btn-text">Load →</span>
+                              </div>
+                              <div className="sample-desc">{data.desc}</div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* AI Tips Card */}
+                    <div className="ai-tips-card">
+                      <div className="tips-title">🤖 AI Resume Tips</div>
+                      <ul className="tips-list">
+                        <li className="tips-item"><span className="tips-check">✔</span> Keep resume under 2 pages</li>
+                        <li className="tips-item"><span className="tips-check">✔</span> Use measurable achievements</li>
+                        <li className="tips-item"><span className="tips-check">✔</span> Match job description keywords</li>
+                        <li className="tips-item"><span className="tips-check">✔</span> Include technical skills & projects</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* Right Panel (65%) */}
+                  <div className="right-panel">
+                    <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                      <div>
+                        <h3 className="card-title">Upload your resume</h3>
+                        <p className="card-subtitle" style={{ marginBottom: '2px', fontWeight: '500' }}>Supported formats: <strong>PDF, DOCX, DOC, RTF, ODT</strong></p>
+                        <p className="card-subtitle" style={{ marginBottom: '0', color: '#94A3B8' }}>Maximum file size: <strong>5 MB</strong></p>
+                      </div>
+
+                      {/* File Upload Zone / Success State */}
+                      {file ? (
+                        <div className="success-card">
+                          <div className="success-info">
+                            <div className="success-icon">✅</div>
+                            <div>
+                              <div className="success-title">Resume Uploaded Successfully</div>
+                              <div className="success-filename">{file.name} ({(file.size / 1024).toFixed(1)} KB)</div>
+                            </div>
+                          </div>
+                          <div className="success-actions">
+                            <button onClick={() => { setFile(null); resetAnalysis(); }} className="btn-small btn-replace">Replace</button>
+                            <button onClick={() => { setFile(null); setResumeText(""); resetAnalysis(); }} className="btn-small btn-remove">Remove</button>
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="upload-zone">
+                          <input
+                            type="file"
+                            accept=".pdf,.docx,.doc,.rtf,.odt"
+                            onChange={handleFileUpload}
+                            className="file-input-hidden"
+                          />
+                          <div className="upload-icon-box">📥</div>
+                          <div className="upload-text-main">Drag & drop your resume file here</div>
+                          <div className="upload-text-sub">or click to browse from your computer</div>
+                          <div className="browse-btn">Browse Files</div>
+                          <div className="upload-specs">
+                            <span>Supported formats: PDF, DOCX, DOC, RTF, ODT</span>
+                            <span>•</span>
+                            <span>Maximum file size: 5 MB</span>
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Textarea Editor Container */}
+                      <div className="editor-container">
+                        <div className="editor-header">
+                          <span className="editor-label">📝 Extracted / Pasted Plain Text</span>
+                          <span className="char-counter">{resumeText.length} characters</span>
+                        </div>
+                        <textarea
+                          rows={6}
+                          value={resumeText}
+                          onChange={(e) => {
+                            setResumeText(e.target.value);
+                            if (hasAnalysisResults) resetAnalysis();
+                          }}
+                          placeholder="Paste your resume here if you don't want to upload a file..."
+                          className="custom-textarea"
+                        />
+                      </div>
+
+                      {/* Primary CTA Button */}
+                      <button
+                        onClick={runFullPipeline}
+                        disabled={loading || !resumeText.trim()}
+                        className="primary-btn"
+                      >
+                        {loading ? '⚡ Extracting Skills & Vector Matching...' : '✨ Generate Skill Gap Analysis'}
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* STEP 2: SKILL PROFILE */}
+            {currentStep === 2 && (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <div>
+                    <h2 style={{ fontSize: '24px', fontWeight: '800' }}>Step 2: Candidate Skill Profile</h2>
+                    <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>Parsed explicit technical skills</p>
+                  </div>
+                  <button onClick={() => setCurrentStep(3)} className="primary-btn" style={{ width: 'auto', padding: '0 24px', height: '44px' }}>
+                    Proceed to Skill-Gap Analysis →
+                  </button>
+                </div>
+                <div className="main-grid" style={{ gridTemplateColumns: '1fr 2fr' }}>
+                  <div className="card">
+                    <div style={{ fontSize: '12px', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 'bold' }}>Experience Level</div>
+                    <div style={{ fontSize: '22px', fontWeight: '800', color: 'var(--accent-cyan)' }}>{activeProfile.experience_level}</div>
+                    <div style={{ marginTop: '16px', fontSize: '12px', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 'bold' }}>Target Role Selected</div>
+                    <div style={{ fontSize: '14px', fontWeight: '600', color: '#FFF', background: 'var(--bg-dark)', padding: '12px', borderRadius: '8px', marginTop: '4px' }}>🎯 {targetRole}</div>
+                  </div>
+                  <div className="card">
+                    <h3 style={{ fontSize: '18px', fontWeight: '700', marginBottom: '16px' }}>
+                      Explicit Technical Skills Extracted ({activeProfile.skills.length})
+                    </h3>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+                      {activeProfile.skills.map((skill, idx) => (
+                        <span key={idx} style={{ padding: '6px 14px', borderRadius: '8px', background: 'var(--card-secondary)', border: '1px solid var(--border-muted)', fontSize: '13px', fontWeight: '600', color: '#4F8CFF' }}>
+                          ⚡ {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* STEP 3: GAP ANALYSIS */}
+            {currentStep === 3 && (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <div>
+                    <h2 style={{ fontSize: '24px', fontWeight: '800' }}>Step 3: FAISS Market Skill-Gap Analysis</h2>
+                    <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>Comparing explicit technical skills against target role job market requirements</p>
+                  </div>
+                  <button onClick={() => setCurrentStep(4)} className="primary-btn" style={{ width: 'auto', padding: '0 24px', height: '44px' }}>
+                    View Personalized Roadmap →
+                  </button>
+                </div>
+
+                <div className="card" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px' }}>
+                  <div>
+                    <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Target Role</div>
+                    <div style={{ fontSize: '20px', fontWeight: '800' }}>{activeGapData.target_role}</div>
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Indexed Jobs Analyzed</div>
+                    <div style={{ fontSize: '20px', fontWeight: '800', color: 'var(--accent-cyan)' }}>{activeGapData.total_matched_jobs} Postings</div>
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Role Preparedness Score</div>
+                    <div style={{ fontSize: '24px', fontWeight: '800', color: 'var(--success-green)' }}>{activeGapData.match_score_percentage}%</div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <h3 style={{ fontSize: '18px', fontWeight: '700', marginBottom: '16px' }}>Ranked Skill Gaps for {activeGapData.target_role}</h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                    {activeGapData.missing_skills_ranked.map((item, idx) => (
+                      <div key={idx} style={{ padding: '16px', borderRadius: '12px', background: 'var(--bg-dark)', border: '1px solid var(--border-muted)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                          <span style={{ fontWeight: 'bold', color: 'var(--primary-blue)' }}>#{idx + 1}</span>
+                          <div>
+                            <div style={{ fontWeight: 'bold' }}>{item.skill}</div>
+                            <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>Required in {item.frequency_count} of {activeGapData.total_matched_jobs} postings</div>
+                          </div>
+                        </div>
+                        <div style={{ fontWeight: 'bold', color: 'var(--accent-cyan)' }}>{item.demand_percentage}% Demand</div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* STEP 4: LEARNING ROADMAP */}
+            {currentStep === 4 && (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <div>
+                    <h2 style={{ fontSize: '24px', fontWeight: '800' }}>Step 4: Personalized Learning Roadmap</h2>
+                    <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>{activeRoadmapData.duration_weeks}-Week Tailored Sprint Schedule for {targetRole}</p>
+                  </div>
+                  <div style={{ background: 'var(--card-dark)', border: '1px solid var(--border-muted)', padding: '10px 20px', borderRadius: '12px', fontSize: '14px', fontWeight: 'bold', color: 'var(--success-green)' }}>
+                    Progress: {calculateProgressPercent()}% Completed
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                    {activeRoadmapData.weekly_schedule.map((weekItem) => {
+                      const isDone = !!completedWeeks[weekItem.week];
+                      return (
+                        <div key={weekItem.week} style={{ padding: '20px', borderRadius: '16px', background: isDone ? 'rgba(34,197,94,0.05)' : 'var(--card-secondary)', border: '1px solid var(--border-muted)' }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '12px' }}>
+                            <button onClick={() => toggleWeekCompletion(weekItem.week)} style={{ width: '24px', height: '24px', borderRadius: '6px', border: '1px solid var(--primary-blue)', background: isDone ? 'var(--success-green)' : 'transparent', color: '#000', cursor: 'pointer', fontWeight: 'bold' }}>
+                              {isDone ? '✓' : ''}
+                            </button>
+                            <span style={{ fontSize: '12px', fontWeight: 'bold', color: 'var(--accent-cyan)' }}>WEEK {weekItem.week}</span>
+                            <h4 style={{ fontSize: '16px', fontWeight: 'bold', textDecoration: isDone ? 'line-through' : 'none' }}>{weekItem.title}</h4>
+                          </div>
+                          <div style={{ fontSize: '13px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+                            <strong>Project:</strong> 🛠️ {weekItem.actionable_project}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            )}
+          </main>
+
+          <footer className="footer">
+            SkillSync AI — Pure HTML5 & CSS3 Premium AI SaaS Platform
+          </footer>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>

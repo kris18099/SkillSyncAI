@@ -1,0 +1,920 @@
+/* ==========================================================================
+   SkillSync AI — Pure Vanilla CSS3 Design System (Linear / Vercel AI SaaS)
+   ========================================================================== */
+
+/* 1. CSS Custom Properties / Color Tokens */
+:root {
+  --bg-dark: #09090B;
+  --card-dark: #111827;
+  --card-secondary: #1A2234;
+  --primary-blue: #4F8CFF;
+  --accent-cyan: #38BDF8;
+  --purple: #7C3AED;
+  --success-green: #22C55E;
+  --border-muted: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(79, 140, 255, 0.5);
+  --text-primary: #FFFFFF;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --radius-lg: 16px;
+  --radius-md: 14px;
+  --radius-sm: 8px;
+  --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --shadow-glow: 0 0 25px rgba(79, 140, 255, 0.25);
+  --shadow-card: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
+  --shadow-dropdown: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(79, 140, 255, 0.3);
+}
+
+/* 2. Global Resets & Base Styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: 
+    radial-gradient(circle at 20% 10%, rgba(79, 140, 255, 0.08) 0%, transparent 45%),
+    radial-gradient(circle at 80% 80%, rgba(56, 189, 248, 0.07) 0%, transparent 45%);
+}
+
+/* 3. Layout Container */
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* 4. Sticky Header & Stepper */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(9, 9, 11, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-muted);
+}
+
+.header-inner {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.brand-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--primary-blue), var(--accent-cyan));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  box-shadow: 0 0 15px rgba(79, 140, 255, 0.3);
+  transition: var(--transition);
+}
+
+.brand:hover .brand-icon {
+  transform: scale(1.05);
+}
+
+.brand-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-badge {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background: rgba(56, 189, 248, 0.1);
+  color: var(--accent-cyan);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.brand-subtitle {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+/* Progress Stepper */
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(17, 24, 39, 0.9);
+  padding: 6px;
+  border-radius: 16px;
+  border: 1px solid var(--border-muted);
+}
+
+.step-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.step-btn.active {
+  background: linear-gradient(135deg, var(--primary-blue), var(--accent-cyan));
+  color: #FFFFFF;
+  box-shadow: var(--shadow-glow);
+}
+
+.step-btn.completed {
+  background: rgba(34, 197, 94, 0.1);
+  color: var(--success-green);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.step-btn.completed:hover {
+  background: rgba(34, 197, 94, 0.2);
+}
+
+.step-btn:hover:not(.active):not(:disabled) {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.step-btn:disabled,
+.step-btn.disabled {
+  opacity: 0.35;
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
+
+.step-num {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.step-btn.active .step-num {
+  background: rgba(255, 255, 255, 0.25);
+  color: #FFFFFF;
+}
+
+.step-btn.completed .step-num {
+  background: var(--success-green);
+  color: #09090B;
+}
+
+/* 5. Hero Section */
+.hero {
+  text-align: center;
+  max-width: 800px;
+  margin: 48px auto 40px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary-blue), var(--accent-cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* 6. Main 35/65 Layout */
+.main-grid {
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  gap: 32px;
+  align-items: start;
+  margin-bottom: 64px;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* 7. Premium Cards */
+.card {
+  background: var(--card-dark);
+  border: 1px solid var(--border-muted);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-card);
+  backdrop-filter: blur(12px);
+  position: relative;
+  z-index: 1;
+}
+
+/* Card containing active dropdown must sit above subsequent cards */
+.card.card-career-goal {
+  z-index: 50;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--primary-blue);
+  box-shadow: 0 0 10px var(--primary-blue);
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   8. Premium Custom Dropdown Component (Linear / Vercel AI SaaS Aesthetic)
+   ========================================================================== */
+.custom-dropdown-container {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.custom-dropdown-container.open {
+  z-index: 100;
+}
+
+.dropdown-trigger {
+  width: 100%;
+  height: 56px;
+  border-radius: 16px;
+  background: #111827;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0 20px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-trigger:hover {
+  border-color: #4F8CFF;
+  box-shadow: 0 0 20px rgba(79, 140, 255, 0.25);
+}
+
+.dropdown-trigger:focus,
+.custom-dropdown-container.open .dropdown-trigger {
+  outline: none;
+  border-color: #4F8CFF;
+  box-shadow: 0 0 0 3px rgba(79, 140, 255, 0.25), 0 0 20px rgba(79, 140, 255, 0.2);
+}
+
+.selected-value-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  line-height: 1.25;
+}
+
+.selected-role-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.selected-category-name {
+  font-size: 11px;
+  font-weight: 400;
+  color: #94A3B8;
+  margin-top: 1px;
+}
+
+.chevron-icon {
+  font-size: 14px;
+  color: #94A3B8;
+  transition: transform 250ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-dropdown-container.open .chevron-icon {
+  transform: rotate(180deg);
+  color: #4F8CFF;
+}
+
+/* Dropdown Menu Container */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 8px;
+  background: #111827;
+  border: 1px solid rgba(79, 140, 255, 0.3);
+  border-radius: 14px;
+  max-height: 260px;
+  overflow-y: auto;
+  z-index: 9999;
+  box-shadow: var(--shadow-dropdown);
+  display: none;
+  flex-direction: column;
+  padding: 6px;
+  gap: 4px;
+  animation: dropdownFadeIn 200ms ease-out forwards;
+}
+
+.custom-dropdown-container.open .dropdown-menu {
+  display: flex;
+}
+
+@keyframes dropdownFadeIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Thin Modern Scrollbar for Dropdown */
+.dropdown-menu::-webkit-scrollbar {
+  width: 5px;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background: rgba(79, 140, 255, 0.4);
+}
+
+/* Dropdown Option Item Card */
+.dropdown-option {
+  padding: 12px 16px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 200ms ease;
+  user-select: none;
+}
+
+.dropdown-option:hover {
+  background: rgba(79, 140, 255, 0.15);
+}
+
+.dropdown-option.selected {
+  background: linear-gradient(135deg, #4F8CFF, #38BDF8);
+}
+
+.option-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+}
+
+.option-role {
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.option-category {
+  font-size: 12px;
+  font-weight: 400;
+  color: #94A3B8;
+}
+
+.dropdown-option.selected .option-category {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.check-icon {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  display: none;
+}
+
+.dropdown-option.selected .check-icon {
+  display: block;
+}
+
+/* Divider & Misc */
+.divider {
+  height: 1px;
+  background: var(--border-muted);
+  margin: 20px 0;
+}
+
+/* 9. Sample Resume Cards */
+.section-heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sample-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sample-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px;
+  background: var(--card-secondary);
+  border: 1px solid var(--border-muted);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.sample-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary-blue);
+  box-shadow: var(--shadow-glow);
+  background: rgba(26, 34, 52, 0.9);
+}
+
+.sample-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: rgba(79, 140, 255, 0.1);
+  border: 1px solid rgba(79, 140, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+  transition: var(--transition);
+}
+
+.sample-card:hover .sample-icon {
+  transform: scale(1.1);
+  background: rgba(79, 140, 255, 0.2);
+}
+
+.sample-info {
+  flex: 1;
+}
+
+.sample-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sample-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  transition: var(--transition);
+}
+
+.sample-card:hover .sample-title {
+  color: var(--primary-blue);
+}
+
+.load-btn-text {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent-cyan);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.sample-card:hover .load-btn-text {
+  opacity: 1;
+}
+
+.sample-desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+/* 10. Drag & Drop Upload Zone */
+.upload-zone {
+  border: 2px dashed rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-lg);
+  padding: 40px 24px;
+  text-align: center;
+  background: rgba(9, 9, 11, 0.5);
+  cursor: pointer;
+  position: relative;
+  transition: var(--transition);
+}
+
+.upload-zone:hover {
+  border-color: var(--primary-blue);
+  background: rgba(79, 140, 255, 0.03);
+  box-shadow: 0 0 30px rgba(79, 140, 255, 0.12);
+}
+
+.file-input-hidden {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.upload-icon-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(79, 140, 255, 0.15), rgba(56, 189, 248, 0.15));
+  border: 1px solid rgba(79, 140, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin: 0 auto 16px;
+  transition: var(--transition);
+}
+
+.upload-zone:hover .upload-icon-box {
+  transform: scale(1.1);
+  border-color: var(--primary-blue);
+}
+
+.upload-text-main {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.upload-zone:hover .upload-text-main {
+  color: var(--primary-blue);
+}
+
+.upload-text-sub {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.browse-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border-muted);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  transition: var(--transition);
+}
+
+.upload-zone:hover .browse-btn {
+  background: var(--primary-blue);
+  border-color: var(--primary-blue);
+}
+
+.upload-specs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 16px;
+}
+
+/* 11. Upload Success Card */
+.success-card {
+  padding: 16px 20px;
+  border-radius: var(--radius-lg);
+  background: rgba(34, 197, 94, 0.08);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.1);
+  animation: fadeIn 0.3s ease-out;
+}
+
+.success-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.success-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: rgba(34, 197, 94, 0.2);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: var(--success-green);
+}
+
+.success-title {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--success-green);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.success-filename {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.success-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-small {
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-replace {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+}
+
+.btn-replace:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.btn-remove {
+  background: rgba(239, 68, 68, 0.15);
+  color: #FCA5A5;
+}
+
+.btn-remove:hover {
+  background: rgba(239, 68, 68, 0.25);
+}
+
+/* 12. Textarea Container */
+.editor-container {
+  border-radius: var(--radius-lg);
+  background: var(--bg-dark);
+  border: 1px solid var(--border-muted);
+  padding: 4px;
+  transition: var(--transition);
+}
+
+.editor-container:focus-within {
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(79, 140, 255, 0.15);
+}
+
+.editor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.editor-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.char-counter {
+  font-family: monospace;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.custom-textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 14px;
+  font-family: monospace;
+  font-size: 13px;
+  color: #E2E8F0;
+  line-height: 1.6;
+  resize: vertical;
+  min-height: 150px;
+  outline: none;
+}
+
+/* 13. Primary CTA Button */
+.primary-btn {
+  width: 100%;
+  height: 56px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--primary-blue), var(--purple));
+  color: #FFFFFF;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(79, 140, 255, 0.3);
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.primary-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 0 35px rgba(79, 140, 255, 0.5);
+  filter: brightness(1.1);
+}
+
+.primary-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.primary-btn:disabled {
+  background: #1E293B;
+  color: var(--text-muted);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* 14. AI Tips Card */
+.ai-tips-card {
+  background: var(--card-dark);
+  border: 1px solid var(--border-muted);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+}
+
+.tips-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tips-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tips-item {
+  font-size: 13px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.4;
+}
+
+.tips-check {
+  color: var(--accent-cyan);
+  font-weight: bold;
+}
+
+/* 15. Footer */
+.footer {
+  border-top: 1px solid var(--border-muted);
+  padding: 24px 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: auto;
+}
+
+/* 16. Responsiveness (@media) */
+@media (max-width: 1024px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 36px;
+  }
+  
+  .hero-subtitle {
+    font-size: 15px;
+  }
+  
+  .stepper {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 28px;
+  }
+  
+  .card {
+    padding: 20px;
+  }
+}

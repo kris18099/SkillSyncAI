@@ -1,0 +1,3963 @@
+[
+  {
+    "id": 1,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "TechCorp #1",
+    "level": "Senior",
+    "description": "Senior Data Analyst at TechCorp. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, A/B Testing, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "A/B Testing",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "DataInsight #2",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at DataInsight. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, SQL, Tableau, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "AnalyticsPro #3",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at AnalyticsPro. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, A/B Testing, SQL, Tableau, Excel, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "A/B Testing",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "FinData #4",
+    "level": "Senior",
+    "description": "Senior Data Analyst at FinData. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, A/B Testing, Data Visualization, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "A/B Testing",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "RetailMetrics #5",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at RetailMetrics. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, Statistics, Data Visualization, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "Statistics",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "GlobalAnalytics #6",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at GlobalAnalytics. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, SQL, Tableau, Excel, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "CloudScale #7",
+    "level": "Senior",
+    "description": "Senior Data Analyst at CloudScale. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, Statistics, SQL, Tableau, Excel, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "InsightHub #8",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at InsightHub. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, SQL, Tableau, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "TechCorp #9",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at TechCorp. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, Statistics, SQL, Tableau, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "DataInsight #10",
+    "level": "Senior",
+    "description": "Senior Data Analyst at DataInsight. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "AnalyticsPro #11",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at AnalyticsPro. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, SQL, Tableau, Excel, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "FinData #12",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at FinData. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, Statistics, A/B Testing, Data Visualization, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "Statistics",
+      "A/B Testing",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "RetailMetrics #13",
+    "level": "Senior",
+    "description": "Senior Data Analyst at RetailMetrics. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, A/B Testing, SQL, Tableau, Excel, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "A/B Testing",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "GlobalAnalytics #14",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at GlobalAnalytics. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, SQL, Tableau, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "CloudScale #15",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at CloudScale. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, Data Visualization, SQL, Tableau, Excel, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "InsightHub #16",
+    "level": "Senior",
+    "description": "Senior Data Analyst at InsightHub. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, Statistics, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "TechCorp #17",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at TechCorp. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Data Visualization, SQL, Tableau, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "DataInsight #18",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at DataInsight. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "AnalyticsPro #19",
+    "level": "Senior",
+    "description": "Senior Data Analyst at AnalyticsPro. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, A/B Testing, SQL, Tableau, Excel, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "A/B Testing",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "FinData #20",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at FinData. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, A/B Testing, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "A/B Testing",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "RetailMetrics #21",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at RetailMetrics. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Data Visualization, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "GlobalAnalytics #22",
+    "level": "Senior",
+    "description": "Senior Data Analyst at GlobalAnalytics. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Data Visualization, SQL, Tableau, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "CloudScale #23",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at CloudScale. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, Data Visualization, SQL, Tableau, Excel, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "InsightHub #24",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at InsightHub. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, A/B Testing, SQL, Tableau, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "A/B Testing",
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "TechCorp #25",
+    "level": "Senior",
+    "description": "Senior Data Analyst at TechCorp. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, SQL, Tableau, Excel, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "DataInsight #26",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at DataInsight. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, Statistics, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "AnalyticsPro #27",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at AnalyticsPro. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, A/B Testing, SQL, Tableau, Excel, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "A/B Testing",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "FinData #28",
+    "level": "Senior",
+    "description": "Senior Data Analyst at FinData. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, Data Visualization, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "RetailMetrics #29",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at RetailMetrics. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, Data Visualization, SQL, Tableau, Excel, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "GlobalAnalytics #30",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at GlobalAnalytics. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, A/B Testing, SQL, Tableau, Excel, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "A/B Testing",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "CloudScale #31",
+    "level": "Senior",
+    "description": "Senior Data Analyst at CloudScale. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, A/B Testing, Data Visualization, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "A/B Testing",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "InsightHub #32",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at InsightHub. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, SQL, Tableau, Excel, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "TechCorp #33",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at TechCorp. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "DataInsight #34",
+    "level": "Senior",
+    "description": "Senior Data Analyst at DataInsight. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, Data Visualization, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "AnalyticsPro #35",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at AnalyticsPro. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, Statistics, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "FinData #36",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at FinData. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, A/B Testing, SQL, Tableau, Excel, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "A/B Testing",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "RetailMetrics #37",
+    "level": "Senior",
+    "description": "Senior Data Analyst at RetailMetrics. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, A/B Testing, Data Visualization, SQL, Tableau, Excel, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "A/B Testing",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Excel",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Junior/Entry Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "GlobalAnalytics #38",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Analyst at GlobalAnalytics. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, Statistics, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Mid-Level Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "CloudScale #39",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Analyst at CloudScale. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Python, A/B Testing, Data Visualization, SQL, Tableau, Power BI. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "A/B Testing",
+      "Data Visualization",
+      "SQL",
+      "Tableau",
+      "Power BI"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Senior Data Analyst",
+    "role_category": "Data Analyst",
+    "company": "InsightHub #40",
+    "level": "Senior",
+    "description": "Senior Data Analyst at InsightHub. Seeking a Data Analyst to extract business insights, construct SQL queries, build dashboards in Tableau/Power BI, and perform statistical modeling with Python and Pandas. Required key skills: Pandas, Python, Statistics, SQL, Tableau, Power BI, ETL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Pandas",
+      "Python",
+      "Statistics",
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "ETL"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "AI Frontiers #1",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at AI Frontiers. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FastAPI, FAISS, PyTorch. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "NeuralScale #2",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at NeuralScale. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, FAISS, PyTorch, Docker. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Docker"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "DeepThought #3",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at DeepThought. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, FAISS, PyTorch, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "GenAI Labs #4",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at GenAI Labs. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FAISS, PyTorch, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "CognitiveCloud #5",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at CognitiveCloud. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, FAISS, PyTorch, LLM. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "LLM"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "VectorAI #6",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at VectorAI. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, FAISS, PyTorch, Transformers. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Transformers"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "Synthetix #7",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at Synthetix. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FastAPI, FAISS, PyTorch, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "PromptCraft #8",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at PromptCraft. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FAISS, PyTorch, LLM. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "LLM"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "AI Frontiers #9",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at AI Frontiers. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, FAISS, PyTorch, Transformers, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Transformers",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "NeuralScale #10",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at NeuralScale. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FAISS, PyTorch, Transformers, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "Transformers",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "DeepThought #11",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at DeepThought. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FAISS, PyTorch, Transformers, LLM, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "Transformers",
+      "LLM",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "GenAI Labs #12",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at GenAI Labs. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, FAISS, PyTorch, Transformers, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Transformers",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "CognitiveCloud #13",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at CognitiveCloud. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FastAPI, FAISS, PyTorch, Transformers. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Transformers"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "VectorAI #14",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at VectorAI. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FAISS, PyTorch, Docker, Transformers, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "Docker",
+      "Transformers",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "Synthetix #15",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at Synthetix. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, RAG, FAISS, PyTorch, Docker. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "RAG",
+      "FAISS",
+      "PyTorch",
+      "Docker"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "PromptCraft #16",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at PromptCraft. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, RAG, FAISS, PyTorch, LLM. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "RAG",
+      "FAISS",
+      "PyTorch",
+      "LLM"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "AI Frontiers #17",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at AI Frontiers. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FAISS, PyTorch, Docker, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "Docker",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "NeuralScale #18",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at NeuralScale. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FAISS, PyTorch, Transformers, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "Transformers",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "DeepThought #19",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at DeepThought. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, FAISS, PyTorch, Docker, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Docker",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "GenAI Labs #20",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at GenAI Labs. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, RAG, FAISS, PyTorch, Transformers. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "RAG",
+      "FAISS",
+      "PyTorch",
+      "Transformers"
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "CognitiveCloud #21",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at CognitiveCloud. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FastAPI, FAISS, PyTorch, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "VectorAI #22",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at VectorAI. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, RAG, FAISS, PyTorch, Transformers, LLM. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "RAG",
+      "FAISS",
+      "PyTorch",
+      "Transformers",
+      "LLM"
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "Synthetix #23",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at Synthetix. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, RAG, FAISS, PyTorch. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "RAG",
+      "FAISS",
+      "PyTorch"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "PromptCraft #24",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at PromptCraft. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FAISS, PyTorch, LLM. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "LLM"
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "AI Frontiers #25",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at AI Frontiers. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, FAISS, PyTorch, LLM, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "LLM",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "NeuralScale #26",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at NeuralScale. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, RAG, FAISS, PyTorch, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "RAG",
+      "FAISS",
+      "PyTorch",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "DeepThought #27",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at DeepThought. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FAISS, PyTorch, Transformers. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "Transformers"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "GenAI Labs #28",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at GenAI Labs. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FastAPI, RAG, FAISS, PyTorch. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FastAPI",
+      "RAG",
+      "FAISS",
+      "PyTorch"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "CognitiveCloud #29",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at CognitiveCloud. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FAISS, PyTorch, Transformers, LLM. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "Transformers",
+      "LLM"
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "VectorAI #30",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at VectorAI. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FAISS, PyTorch, LLM. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "LLM"
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "Synthetix #31",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at Synthetix. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, FAISS, PyTorch, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "PromptCraft #32",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at PromptCraft. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, RAG, FAISS, PyTorch, LLM. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "RAG",
+      "FAISS",
+      "PyTorch",
+      "LLM"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "AI Frontiers #33",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at AI Frontiers. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FastAPI, RAG, FAISS, PyTorch, Transformers. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FastAPI",
+      "RAG",
+      "FAISS",
+      "PyTorch",
+      "Transformers"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "NeuralScale #34",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at NeuralScale. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, RAG, FAISS, PyTorch. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "RAG",
+      "FAISS",
+      "PyTorch"
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "DeepThought #35",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at DeepThought. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FastAPI, FAISS, PyTorch, Docker, LLM. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Docker",
+      "LLM"
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "GenAI Labs #36",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at GenAI Labs. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FAISS, PyTorch, Docker. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "Docker"
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "CognitiveCloud #37",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at CognitiveCloud. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, FAISS, PyTorch, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Junior/Entry Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "VectorAI #38",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Generative AI Engineer at VectorAI. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Prompt Engineering, Python, RAG, FAISS, PyTorch, Vector Databases. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Prompt Engineering",
+      "Python",
+      "RAG",
+      "FAISS",
+      "PyTorch",
+      "Vector Databases"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Mid-Level Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "Synthetix #39",
+    "level": "Mid-Level",
+    "description": "Mid-Level Generative AI Engineer at Synthetix. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FastAPI, FAISS, PyTorch, Transformers. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "FAISS",
+      "PyTorch",
+      "Transformers"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Senior Generative AI Engineer",
+    "role_category": "Generative AI Engineer",
+    "company": "PromptCraft #40",
+    "level": "Senior",
+    "description": "Senior Generative AI Engineer at PromptCraft. Looking for a Generative AI Engineer to build LLM applications, construct Retrieval-Augmented Generation (RAG) pipelines with FAISS and vector search, optimize prompts, and deploy FastAPI microservices. Required key skills: LangChain, Python, FAISS, PyTorch, Docker, LLM. Location: Remote / Hybrid.",
+    "required_skills": [
+      "LangChain",
+      "Python",
+      "FAISS",
+      "PyTorch",
+      "Docker",
+      "LLM"
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "SaaSify #1",
+    "level": "Senior",
+    "description": "Senior Software Engineer at SaaSify. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, Git, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "Git",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "CloudApp #2",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at CloudApp. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, Docker, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Docker",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "DevDynamics #3",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at DevDynamics. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, Docker, PostgreSQL, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Docker",
+      "PostgreSQL",
+      "React"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "CodeNexus #4",
+    "level": "Senior",
+    "description": "Senior Software Engineer at CodeNexus. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, Git, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Git",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "StackWorks #5",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at StackWorks. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Redis, Python, FastAPI, TypeScript, CI/CD, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Redis",
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "CI/CD",
+      "React"
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "WebScale #6",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at WebScale. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, PostgreSQL, CI/CD, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "PostgreSQL",
+      "CI/CD",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "AgileSystems #7",
+    "level": "Senior",
+    "description": "Senior Software Engineer at AgileSystems. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, Docker, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Docker",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "ByteCraft #8",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at ByteCraft. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, Git, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "Git",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "SaaSify #9",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at SaaSify. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Redis, Python, FastAPI, TypeScript, Docker, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Redis",
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Docker",
+      "React"
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "CloudApp #10",
+    "level": "Senior",
+    "description": "Senior Software Engineer at CloudApp. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, Git, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Git",
+      "React"
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "DevDynamics #11",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at DevDynamics. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, Docker, CI/CD, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "Docker",
+      "CI/CD",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "CodeNexus #12",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at CodeNexus. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Redis, TypeScript, PostgreSQL, CI/CD, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Redis",
+      "TypeScript",
+      "PostgreSQL",
+      "CI/CD",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "StackWorks #13",
+    "level": "Senior",
+    "description": "Senior Software Engineer at StackWorks. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, PostgreSQL, CI/CD, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "PostgreSQL",
+      "CI/CD",
+      "React"
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "WebScale #14",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at WebScale. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Redis, Python, FastAPI, TypeScript, Git, PostgreSQL, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Redis",
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Git",
+      "PostgreSQL",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "AgileSystems #15",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at AgileSystems. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, Redis, TypeScript, PostgreSQL, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "Redis",
+      "TypeScript",
+      "PostgreSQL",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "ByteCraft #16",
+    "level": "Senior",
+    "description": "Senior Software Engineer at ByteCraft. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Redis, Python, FastAPI, TypeScript, Docker, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Redis",
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Docker",
+      "React"
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "SaaSify #17",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at SaaSify. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, CI/CD, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "CI/CD",
+      "React"
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "CloudApp #18",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at CloudApp. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, Redis, TypeScript, CI/CD, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "Redis",
+      "TypeScript",
+      "CI/CD",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "DevDynamics #19",
+    "level": "Senior",
+    "description": "Senior Software Engineer at DevDynamics. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, PostgreSQL, CI/CD, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "PostgreSQL",
+      "CI/CD",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "CodeNexus #20",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at CodeNexus. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, Docker, PostgreSQL, CI/CD, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Docker",
+      "PostgreSQL",
+      "CI/CD",
+      "React"
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "StackWorks #21",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at StackWorks. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, Docker, PostgreSQL, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "Docker",
+      "PostgreSQL",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "WebScale #22",
+    "level": "Senior",
+    "description": "Senior Software Engineer at WebScale. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, Git, CI/CD, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Git",
+      "CI/CD",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "AgileSystems #23",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at AgileSystems. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, Git, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "Git",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "ByteCraft #24",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at ByteCraft. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, Git, Docker, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "Git",
+      "Docker",
+      "React"
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "SaaSify #25",
+    "level": "Senior",
+    "description": "Senior Software Engineer at SaaSify. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, Redis, TypeScript, PostgreSQL, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "Redis",
+      "TypeScript",
+      "PostgreSQL",
+      "React"
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "CloudApp #26",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at CloudApp. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, Docker, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "Docker",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "DevDynamics #27",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at DevDynamics. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, Git, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Git",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "CodeNexus #28",
+    "level": "Senior",
+    "description": "Senior Software Engineer at CodeNexus. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, CI/CD, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "CI/CD",
+      "React"
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "StackWorks #29",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at StackWorks. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, Docker, CI/CD, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Docker",
+      "CI/CD",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "WebScale #30",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at WebScale. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, PostgreSQL, CI/CD, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "PostgreSQL",
+      "CI/CD",
+      "React"
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "AgileSystems #31",
+    "level": "Senior",
+    "description": "Senior Software Engineer at AgileSystems. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, Git, PostgreSQL, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "Git",
+      "PostgreSQL",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "ByteCraft #32",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at ByteCraft. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, Docker, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Docker",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "SaaSify #33",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at SaaSify. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, CI/CD, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "CI/CD",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "CloudApp #34",
+    "level": "Senior",
+    "description": "Senior Software Engineer at CloudApp. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, Git, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "Git",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "DevDynamics #35",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at DevDynamics. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, PostgreSQL, CI/CD, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "PostgreSQL",
+      "CI/CD",
+      "React"
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "CodeNexus #36",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at CodeNexus. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Redis, Python, FastAPI, TypeScript, Git, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Redis",
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Git",
+      "React"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "StackWorks #37",
+    "level": "Senior",
+    "description": "Senior Software Engineer at StackWorks. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, Git, Docker, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "Git",
+      "Docker",
+      "React"
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Junior/Entry Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "WebScale #38",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Software Engineer at WebScale. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, TypeScript, Docker, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "Docker",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Mid-Level Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "AgileSystems #39",
+    "level": "Mid-Level",
+    "description": "Mid-Level Software Engineer at AgileSystems. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Microservices, TypeScript, React, REST API. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Microservices",
+      "TypeScript",
+      "React",
+      "REST API"
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Senior Software Engineer",
+    "role_category": "Software Engineer",
+    "company": "ByteCraft #40",
+    "level": "Senior",
+    "description": "Senior Software Engineer at ByteCraft. Software Engineer needed to develop full-stack applications with React, TypeScript, and FastAPI, maintain PostgreSQL databases, write clean code, and manage Dockerized microservices. Required key skills: Python, FastAPI, Redis, TypeScript, Git, CI/CD, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Redis",
+      "TypeScript",
+      "Git",
+      "CI/CD",
+      "React"
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "DataMind #1",
+    "level": "Senior",
+    "description": "Senior Data Scientist at DataMind. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Feature Engineering, Machine Learning, TensorFlow, PyTorch, NumPy. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Feature Engineering",
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy"
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "PredictiveAI #2",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at PredictiveAI. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Machine Learning, Feature Engineering, Statistics, TensorFlow, PyTorch, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Machine Learning",
+      "Feature Engineering",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "QuantLab #3",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at QuantLab. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, TensorFlow, PyTorch, SQL, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "SQL",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "BioHealth Data #4",
+    "level": "Senior",
+    "description": "Senior Data Scientist at BioHealth Data. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Machine Learning, Feature Engineering, TensorFlow, PyTorch, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Machine Learning",
+      "Feature Engineering",
+      "TensorFlow",
+      "PyTorch",
+      "SQL"
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "SmartAnalytics #5",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at SmartAnalytics. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Machine Learning, Statistics, TensorFlow, PyTorch, NumPy. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Machine Learning",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy"
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "DeepInsight #6",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at DeepInsight. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Statistics, TensorFlow, PyTorch, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "SQL"
+    ]
+  },
+  {
+    "id": 127,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "StatWorks #7",
+    "level": "Senior",
+    "description": "Senior Data Scientist at StatWorks. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Pandas, Python, TensorFlow, PyTorch, NumPy. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Pandas",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy"
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "AlgoMetrics #8",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at AlgoMetrics. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Feature Engineering, TensorFlow, PyTorch, SQL, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Feature Engineering",
+      "TensorFlow",
+      "PyTorch",
+      "SQL",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 129,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "DataMind #9",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at DataMind. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Pandas, Python, Machine Learning, TensorFlow, PyTorch, NumPy. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Pandas",
+      "Python",
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy"
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "PredictiveAI #10",
+    "level": "Senior",
+    "description": "Senior Data Scientist at PredictiveAI. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Feature Engineering, TensorFlow, PyTorch. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Feature Engineering",
+      "TensorFlow",
+      "PyTorch"
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "QuantLab #11",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at QuantLab. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Feature Engineering, Statistics, TensorFlow, PyTorch, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Feature Engineering",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 132,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "BioHealth Data #12",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at BioHealth Data. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Feature Engineering, Machine Learning, TensorFlow, PyTorch, NumPy, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Feature Engineering",
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 133,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "SmartAnalytics #13",
+    "level": "Senior",
+    "description": "Senior Data Scientist at SmartAnalytics. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Pandas, Python, TensorFlow, PyTorch, SQL, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Pandas",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "SQL",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "DeepInsight #14",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at DeepInsight. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Pandas, Python, TensorFlow, PyTorch, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Pandas",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "SQL"
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "StatWorks #15",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at StatWorks. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Statistics, TensorFlow, PyTorch, SQL, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "SQL",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "AlgoMetrics #16",
+    "level": "Senior",
+    "description": "Senior Data Scientist at AlgoMetrics. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Machine Learning, Statistics, TensorFlow, PyTorch, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Machine Learning",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "SQL"
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "DataMind #17",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at DataMind. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Machine Learning, Feature Engineering, Statistics, TensorFlow, PyTorch, NumPy. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Machine Learning",
+      "Feature Engineering",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy"
+    ]
+  },
+  {
+    "id": 138,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "PredictiveAI #18",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at PredictiveAI. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Machine Learning, Feature Engineering, TensorFlow, PyTorch, NumPy, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Machine Learning",
+      "Feature Engineering",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy",
+      "SQL"
+    ]
+  },
+  {
+    "id": 139,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "QuantLab #19",
+    "level": "Senior",
+    "description": "Senior Data Scientist at QuantLab. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Pandas, Python, Statistics, TensorFlow, PyTorch, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Pandas",
+      "Python",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "SQL"
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "BioHealth Data #20",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at BioHealth Data. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Statistics, TensorFlow, PyTorch. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch"
+    ]
+  },
+  {
+    "id": 141,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "SmartAnalytics #21",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at SmartAnalytics. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Pandas, Python, TensorFlow, PyTorch, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Pandas",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "DeepInsight #22",
+    "level": "Senior",
+    "description": "Senior Data Scientist at DeepInsight. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, TensorFlow, PyTorch, NumPy. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy"
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "StatWorks #23",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at StatWorks. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Machine Learning, TensorFlow, PyTorch, NumPy, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "AlgoMetrics #24",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at AlgoMetrics. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Machine Learning, Statistics, TensorFlow, PyTorch, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Machine Learning",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "DataMind #25",
+    "level": "Senior",
+    "description": "Senior Data Scientist at DataMind. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Machine Learning, TensorFlow, PyTorch, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch",
+      "SQL"
+    ]
+  },
+  {
+    "id": 146,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "PredictiveAI #26",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at PredictiveAI. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Feature Engineering, Machine Learning, TensorFlow, PyTorch. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Feature Engineering",
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch"
+    ]
+  },
+  {
+    "id": 147,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "QuantLab #27",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at QuantLab. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Pandas, Python, Feature Engineering, TensorFlow, PyTorch, NumPy, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Pandas",
+      "Python",
+      "Feature Engineering",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "BioHealth Data #28",
+    "level": "Senior",
+    "description": "Senior Data Scientist at BioHealth Data. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, TensorFlow, PyTorch, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "SmartAnalytics #29",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at SmartAnalytics. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Statistics, TensorFlow, PyTorch, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "SQL"
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "DeepInsight #30",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at DeepInsight. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Statistics, TensorFlow, PyTorch, NumPy, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy",
+      "SQL"
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "StatWorks #31",
+    "level": "Senior",
+    "description": "Senior Data Scientist at StatWorks. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Pandas, Python, TensorFlow, PyTorch, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Pandas",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "SQL"
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "AlgoMetrics #32",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at AlgoMetrics. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Pandas, Python, Feature Engineering, Statistics, TensorFlow, PyTorch, NumPy. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Pandas",
+      "Python",
+      "Feature Engineering",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy"
+    ]
+  },
+  {
+    "id": 153,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "DataMind #33",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at DataMind. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Feature Engineering, Statistics, TensorFlow, PyTorch, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Feature Engineering",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "PredictiveAI #34",
+    "level": "Senior",
+    "description": "Senior Data Scientist at PredictiveAI. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Pandas, Python, Machine Learning, Statistics, TensorFlow, PyTorch, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Pandas",
+      "Python",
+      "Machine Learning",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "SQL"
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "QuantLab #35",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at QuantLab. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Feature Engineering, Statistics, TensorFlow, PyTorch. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Feature Engineering",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch"
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "BioHealth Data #36",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at BioHealth Data. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Statistics, TensorFlow, PyTorch, XGBoost. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost"
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "SmartAnalytics #37",
+    "level": "Senior",
+    "description": "Senior Data Scientist at SmartAnalytics. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Feature Engineering, Machine Learning, TensorFlow, PyTorch. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Feature Engineering",
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch"
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Junior/Entry Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "DeepInsight #38",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Data Scientist at DeepInsight. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Machine Learning, TensorFlow, PyTorch, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch",
+      "SQL"
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Mid-Level Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "StatWorks #39",
+    "level": "Mid-Level",
+    "description": "Mid-Level Data Scientist at StatWorks. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Pandas, Python, TensorFlow, PyTorch, NumPy. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Pandas",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy"
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Senior Data Scientist",
+    "role_category": "Data Scientist",
+    "company": "AlgoMetrics #40",
+    "level": "Senior",
+    "description": "Senior Data Scientist at AlgoMetrics. Data Scientist role focusing on predictive modeling, machine learning algorithms with Scikit-Learn and PyTorch, feature engineering, and advanced statistical hypothesis testing. Required key skills: Scikit-Learn, Python, Statistics, TensorFlow, PyTorch, NumPy, SQL. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Scikit-Learn",
+      "Python",
+      "Statistics",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy",
+      "SQL"
+    ]
+  },
+  {
+    "id": 161,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "UI Studio #1",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at UI Studio. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, UI/UX Design, TypeScript, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "UI/UX Design",
+      "TypeScript",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 162,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "PixelCraft #2",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at PixelCraft. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, HTML5, Next.js, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "HTML5",
+      "Next.js",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "FrontTier #3",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at FrontTier. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, UI/UX Design, TypeScript, Jest, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "UI/UX Design",
+      "TypeScript",
+      "Jest",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "DesignCode #4",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at DesignCode. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "WebVibe #5",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at WebVibe. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Next.js, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 166,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "AppCanvas #6",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at AppCanvas. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, UI/UX Design, TypeScript, Web Performance, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "UI/UX Design",
+      "TypeScript",
+      "Web Performance",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 167,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "UserFirst #7",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at UserFirst. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Jest, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Jest",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 168,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "ModernWeb #8",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at ModernWeb. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Jest, Next.js, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Jest",
+      "Next.js",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 169,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "UI Studio #9",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at UI Studio. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, HTML5, Next.js, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "HTML5",
+      "Next.js",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 170,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "PixelCraft #10",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at PixelCraft. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Jest, Web Performance, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Jest",
+      "Web Performance",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "FrontTier #11",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at FrontTier. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, UI/UX Design, TypeScript, Jest, HTML5, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "UI/UX Design",
+      "TypeScript",
+      "Jest",
+      "HTML5",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 172,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "DesignCode #12",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at DesignCode. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Web Performance, Next.js, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Web Performance",
+      "Next.js",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 173,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "WebVibe #13",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at WebVibe. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Jest, Web Performance, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Jest",
+      "Web Performance",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 174,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "AppCanvas #14",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at AppCanvas. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Web Performance, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Web Performance",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 175,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "UserFirst #15",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at UserFirst. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, HTML5, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "HTML5",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 176,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "ModernWeb #16",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at ModernWeb. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, UI/UX Design, TypeScript, Jest, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "UI/UX Design",
+      "TypeScript",
+      "Jest",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 177,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "UI Studio #17",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at UI Studio. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Jest, Web Performance, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Jest",
+      "Web Performance",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 178,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "PixelCraft #18",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at PixelCraft. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, Jest, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "Jest",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 179,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "FrontTier #19",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at FrontTier. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, Jest, Next.js, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "Jest",
+      "Next.js",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 180,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "DesignCode #20",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at DesignCode. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, HTML5, Next.js, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "HTML5",
+      "Next.js",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 181,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "WebVibe #21",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at WebVibe. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, Jest, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "Jest",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 182,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "AppCanvas #22",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at AppCanvas. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, UI/UX Design, TypeScript, Web Performance, Next.js, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "UI/UX Design",
+      "TypeScript",
+      "Web Performance",
+      "Next.js",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 183,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "UserFirst #23",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at UserFirst. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, HTML5, Next.js, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "HTML5",
+      "Next.js",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 184,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "ModernWeb #24",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at ModernWeb. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Jest, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Jest",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 185,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "UI Studio #25",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at UI Studio. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Jest, HTML5, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Jest",
+      "HTML5",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 186,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "PixelCraft #26",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at PixelCraft. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, Jest, Next.js, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "Jest",
+      "Next.js",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 187,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "FrontTier #27",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at FrontTier. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, HTML5, Web Performance, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "HTML5",
+      "Web Performance",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 188,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "DesignCode #28",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at DesignCode. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, UI/UX Design, TypeScript, Web Performance, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "UI/UX Design",
+      "TypeScript",
+      "Web Performance",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 189,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "WebVibe #29",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at WebVibe. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 190,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "AppCanvas #30",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at AppCanvas. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, Jest, Next.js, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "Jest",
+      "Next.js",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 191,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "UserFirst #31",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at UserFirst. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Next.js, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 192,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "ModernWeb #32",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at ModernWeb. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Jest, HTML5, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Jest",
+      "HTML5",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 193,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "UI Studio #33",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at UI Studio. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 194,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "PixelCraft #34",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at PixelCraft. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, UI/UX Design, TypeScript, Jest, HTML5, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "UI/UX Design",
+      "TypeScript",
+      "Jest",
+      "HTML5",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 195,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "FrontTier #35",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at FrontTier. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Jest, Web Performance, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Jest",
+      "Web Performance",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 196,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "DesignCode #36",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at DesignCode. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 197,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "WebVibe #37",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at WebVibe. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, TypeScript, Web Performance, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Web Performance",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 198,
+    "title": "Junior/Entry Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "AppCanvas #38",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry Frontend Developer at AppCanvas. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, UI/UX Design, TypeScript, Jest, Web Performance, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "UI/UX Design",
+      "TypeScript",
+      "Jest",
+      "Web Performance",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 199,
+    "title": "Mid-Level Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "UserFirst #39",
+    "level": "Mid-Level",
+    "description": "Mid-Level Frontend Developer at UserFirst. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, Redux, TypeScript, Web Performance, Tailwind CSS, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "Redux",
+      "TypeScript",
+      "Web Performance",
+      "Tailwind CSS",
+      "React"
+    ]
+  },
+  {
+    "id": 200,
+    "title": "Senior Frontend Developer",
+    "role_category": "Frontend Developer",
+    "company": "ModernWeb #40",
+    "level": "Senior",
+    "description": "Senior Frontend Developer at ModernWeb. Frontend Developer to build responsive user interfaces using React, TypeScript, Next.js, and Tailwind CSS with smooth micro-animations and optimized web performance. Required key skills: JavaScript, UI/UX Design, TypeScript, Next.js, Tailwind CSS, CSS3, React. Location: Remote / Hybrid.",
+    "required_skills": [
+      "JavaScript",
+      "UI/UX Design",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "CSS3",
+      "React"
+    ]
+  },
+  {
+    "id": 201,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "CloudOps #1",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at CloudOps. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Grafana, Kubernetes, Docker, Bash, Prometheus. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "Bash",
+      "Prometheus"
+    ]
+  },
+  {
+    "id": 202,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "InfraScale #2",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at InfraScale. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Kubernetes, Docker, Bash, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Bash",
+      "Networking"
+    ]
+  },
+  {
+    "id": 203,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "KubernetesPro #3",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at KubernetesPro. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Linux, AWS, Grafana, Kubernetes, Docker, Prometheus. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Linux",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "Prometheus"
+    ]
+  },
+  {
+    "id": 204,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "DevOpsNet #4",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at DevOpsNet. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Kubernetes, Docker. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Docker"
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "SysAdmin Labs #5",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at SysAdmin Labs. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Grafana, Kubernetes, Docker, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "Networking"
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "ReliabilityInc #6",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at ReliabilityInc. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Linux, AWS, Kubernetes, Docker, CI/CD, Bash, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Linux",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Bash",
+      "Networking"
+    ]
+  },
+  {
+    "id": 207,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "TerraCloud #7",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at TerraCloud. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Grafana, Kubernetes, Docker, CI/CD, Bash. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Bash"
+    ]
+  },
+  {
+    "id": 208,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "DeployMatrix #8",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at DeployMatrix. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Grafana, Kubernetes, Docker, CI/CD. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "CI/CD"
+    ]
+  },
+  {
+    "id": 209,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "CloudOps #9",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at CloudOps. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Grafana, Kubernetes, Docker, CI/CD. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "CI/CD"
+    ]
+  },
+  {
+    "id": 210,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "InfraScale #10",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at InfraScale. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Linux, AWS, Grafana, Kubernetes, Docker, Bash. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Linux",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "Bash"
+    ]
+  },
+  {
+    "id": 211,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "KubernetesPro #11",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at KubernetesPro. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Grafana, Kubernetes, Docker, Prometheus. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "Prometheus"
+    ]
+  },
+  {
+    "id": 212,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "DevOpsNet #12",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at DevOpsNet. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Grafana, Kubernetes, Docker, Bash. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "Bash"
+    ]
+  },
+  {
+    "id": 213,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "SysAdmin Labs #13",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at SysAdmin Labs. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Linux, Python, AWS, Kubernetes, Docker. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Linux",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Docker"
+    ]
+  },
+  {
+    "id": 214,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "ReliabilityInc #14",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at ReliabilityInc. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Kubernetes, Docker, Bash, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Bash",
+      "Networking"
+    ]
+  },
+  {
+    "id": 215,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "TerraCloud #15",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at TerraCloud. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Kubernetes, Docker, CI/CD, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Networking"
+    ]
+  },
+  {
+    "id": 216,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "DeployMatrix #16",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at DeployMatrix. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Kubernetes, Docker, Bash, Networking, Prometheus. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Bash",
+      "Networking",
+      "Prometheus"
+    ]
+  },
+  {
+    "id": 217,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "CloudOps #17",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at CloudOps. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Kubernetes, Docker, Prometheus. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Prometheus"
+    ]
+  },
+  {
+    "id": 218,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "InfraScale #18",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at InfraScale. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Grafana, Kubernetes, Docker, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "Networking"
+    ]
+  },
+  {
+    "id": 219,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "KubernetesPro #19",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at KubernetesPro. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Grafana, Kubernetes, Docker, CI/CD, Bash. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Bash"
+    ]
+  },
+  {
+    "id": 220,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "DevOpsNet #20",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at DevOpsNet. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Kubernetes, Docker, Bash, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Bash",
+      "Networking"
+    ]
+  },
+  {
+    "id": 221,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "SysAdmin Labs #21",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at SysAdmin Labs. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Kubernetes, Docker, CI/CD, Bash, Prometheus. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Bash",
+      "Prometheus"
+    ]
+  },
+  {
+    "id": 222,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "ReliabilityInc #22",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at ReliabilityInc. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Kubernetes, Docker, CI/CD, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Networking"
+    ]
+  },
+  {
+    "id": 223,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "TerraCloud #23",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at TerraCloud. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Grafana, Kubernetes, Docker. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker"
+    ]
+  },
+  {
+    "id": 224,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "DeployMatrix #24",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at DeployMatrix. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Linux, AWS, Kubernetes, Docker. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Linux",
+      "AWS",
+      "Kubernetes",
+      "Docker"
+    ]
+  },
+  {
+    "id": 225,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "CloudOps #25",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at CloudOps. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Kubernetes, Docker, CI/CD, Bash. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Bash"
+    ]
+  },
+  {
+    "id": 226,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "InfraScale #26",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at InfraScale. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Grafana, Kubernetes, Docker. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker"
+    ]
+  },
+  {
+    "id": 227,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "KubernetesPro #27",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at KubernetesPro. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Kubernetes, Docker, Bash. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Bash"
+    ]
+  },
+  {
+    "id": 228,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "DevOpsNet #28",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at DevOpsNet. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Kubernetes, Docker, Prometheus. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Prometheus"
+    ]
+  },
+  {
+    "id": 229,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "SysAdmin Labs #29",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at SysAdmin Labs. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Kubernetes, Docker, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Networking"
+    ]
+  },
+  {
+    "id": 230,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "ReliabilityInc #30",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at ReliabilityInc. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Linux, Python, AWS, Kubernetes, Docker, CI/CD, Bash. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Linux",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Bash"
+    ]
+  },
+  {
+    "id": 231,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "TerraCloud #31",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at TerraCloud. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Linux, AWS, Kubernetes, Docker, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Linux",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Networking"
+    ]
+  },
+  {
+    "id": 232,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "DeployMatrix #32",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at DeployMatrix. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Grafana, Kubernetes, Docker, Bash, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "Bash",
+      "Networking"
+    ]
+  },
+  {
+    "id": 233,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "CloudOps #33",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at CloudOps. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Linux, AWS, Kubernetes, Docker, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Linux",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Networking"
+    ]
+  },
+  {
+    "id": 234,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "InfraScale #34",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at InfraScale. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Grafana, Kubernetes, Docker. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker"
+    ]
+  },
+  {
+    "id": 235,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "KubernetesPro #35",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at KubernetesPro. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Linux, AWS, Kubernetes, Docker, CI/CD, Bash. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Linux",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Bash"
+    ]
+  },
+  {
+    "id": 236,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "DevOpsNet #36",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at DevOpsNet. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Linux, AWS, Grafana, Kubernetes, Docker, Networking, Prometheus. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Linux",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "Networking",
+      "Prometheus"
+    ]
+  },
+  {
+    "id": 237,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "SysAdmin Labs #37",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at SysAdmin Labs. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Grafana, Kubernetes, Docker, Networking, Prometheus. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "Networking",
+      "Prometheus"
+    ]
+  },
+  {
+    "id": 238,
+    "title": "Junior/Entry DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "ReliabilityInc #38",
+    "level": "Junior/Entry",
+    "description": "Junior/Entry DevOps / Cloud Engineer at ReliabilityInc. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, Python, AWS, Kubernetes, Docker, Prometheus. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Prometheus"
+    ]
+  },
+  {
+    "id": 239,
+    "title": "Mid-Level DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "TerraCloud #39",
+    "level": "Mid-Level",
+    "description": "Mid-Level DevOps / Cloud Engineer at TerraCloud. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Grafana, Kubernetes, Docker, CI/CD, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
+      "Networking"
+    ]
+  },
+  {
+    "id": 240,
+    "title": "Senior DevOps / Cloud Engineer",
+    "role_category": "DevOps / Cloud Engineer",
+    "company": "DeployMatrix #40",
+    "level": "Senior",
+    "description": "Senior DevOps / Cloud Engineer at DeployMatrix. DevOps Engineer to build automated CI/CD pipelines, orchestrate Kubernetes clusters, provision AWS infrastructure with Terraform, and monitor cluster health. Required key skills: Terraform, AWS, Kubernetes, Docker, Networking. Location: Remote / Hybrid.",
+    "required_skills": [
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Networking"
+    ]
+  }
+]
