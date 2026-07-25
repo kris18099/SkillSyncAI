@@ -381,11 +381,12 @@ Projects:
               <div>
                 {/* Hero Section */}
                 <section className="hero">
+                  <div className="hero-badge">✨ AI-POWERED CAREER INTELLIGENCE PLATFORM</div>
                   <h1 className="hero-title">
                     Turn Your Resume into an <span className="gradient-text">AI Career Roadmap</span>
                   </h1>
                   <p className="hero-subtitle">
-                    Upload your resume and let AI compare it against real job descriptions to identify missing skills and generate a personalized learning roadmap.
+                    Upload your resume and let vector AI compare your skills against real job market postings to build your custom learning schedule.
                   </p>
                 </section>
 
@@ -524,31 +525,53 @@ Projects:
             )}
 
             {/* STEP 2: SKILL PROFILE */}
-            {currentStep === 2 && (
+            {currentStep === 2 && activeProfile && (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                   <div>
-                    <h2 style={{ fontSize: '24px', fontWeight: '800' }}>Step 2: Candidate Skill Profile</h2>
-                    <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>Parsed explicit technical skills</p>
+                    <h2 style={{ fontSize: '24px', fontWeight: '800', letterSpacing: '-0.02em' }}>Step 2: Candidate Skill Profile</h2>
+                    <p style={{ fontSize: '13.5px', color: 'var(--text-secondary)' }}>Parsed explicit technical skills extracted from your resume</p>
                   </div>
-                  <button onClick={() => setCurrentStep(3)} className="primary-btn" style={{ width: 'auto', padding: '0 24px', height: '44px' }}>
+                  <button onClick={() => setCurrentStep(3)} className="primary-btn" style={{ width: 'auto', padding: '0 28px', height: '48px', fontSize: '14px' }}>
                     Proceed to Skill-Gap Analysis →
                   </button>
                 </div>
-                <div className="main-grid" style={{ gridTemplateColumns: '1fr 2fr' }}>
-                  <div className="card">
-                    <div style={{ fontSize: '12px', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 'bold' }}>Experience Level</div>
-                    <div style={{ fontSize: '22px', fontWeight: '800', color: 'var(--accent-cyan)' }}>{activeProfile.experience_level}</div>
-                    <div style={{ marginTop: '16px', fontSize: '12px', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 'bold' }}>Target Role Selected</div>
-                    <div style={{ fontSize: '14px', fontWeight: '600', color: '#FFF', background: 'var(--bg-dark)', padding: '12px', borderRadius: '8px', marginTop: '4px' }}>🎯 {targetRole}</div>
+
+                <div className="main-grid" style={{ gridTemplateColumns: '360px 1fr' }}>
+                  <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                    <div>
+                      <div style={{ fontSize: '11px', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: '800', letterSpacing: '0.05em' }}>Experience Level</div>
+                      <div style={{ fontSize: '20px', fontWeight: '800', color: 'var(--accent-cyan)', marginTop: '4px' }}>{activeProfile.experience_level}</div>
+                    </div>
+
+                    <div>
+                      <div style={{ fontSize: '11px', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: '800', letterSpacing: '0.05em' }}>Target Role Selected</div>
+                      <div style={{ fontSize: '14px', fontWeight: '600', color: '#FFF', background: 'rgba(9, 13, 22, 0.8)', border: '1px solid var(--border-muted)', padding: '12px 16px', borderRadius: '12px', marginTop: '6px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        🎯 <span>{targetRole}</span>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div style={{ fontSize: '11px', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: '800', letterSpacing: '0.05em' }}>Extracted Skills Count</div>
+                      <div style={{ fontSize: '28px', fontWeight: '800', color: 'var(--primary-blue)', marginTop: '2px' }}>
+                        {activeProfile.skills.length} <span style={{ fontSize: '14px', color: 'var(--text-secondary)', fontWeight: '500' }}>Skills</span>
+                      </div>
+                    </div>
+
+                    {activeProfile.summary && (
+                      <div style={{ padding: '14px', borderRadius: '12px', background: 'rgba(79, 140, 255, 0.05)', border: '1px solid rgba(79, 140, 255, 0.15)', fontSize: '12.5px', color: 'var(--text-secondary)', lineHeight: '1.5' }}>
+                        💡 {activeProfile.summary}
+                      </div>
+                    )}
                   </div>
+
                   <div className="card">
-                    <h3 style={{ fontSize: '18px', fontWeight: '700', marginBottom: '16px' }}>
-                      Explicit Technical Skills Extracted ({activeProfile.skills.length})
+                    <h3 style={{ fontSize: '18px', fontWeight: '700', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                      <span>⚡</span> Extracted Technical Skills ({activeProfile.skills.length})
                     </h3>
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
                       {activeProfile.skills.map((skill, idx) => (
-                        <span key={idx} style={{ padding: '6px 14px', borderRadius: '8px', background: 'var(--card-secondary)', border: '1px solid var(--border-muted)', fontSize: '13px', fontWeight: '600', color: '#4F8CFF' }}>
+                        <span key={idx} className="skill-tag">
                           ⚡ {skill}
                         </span>
                       ))}
@@ -559,46 +582,59 @@ Projects:
             )}
 
             {/* STEP 3: GAP ANALYSIS */}
-            {currentStep === 3 && (
+            {currentStep === 3 && activeGapData && (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                   <div>
-                    <h2 style={{ fontSize: '24px', fontWeight: '800' }}>Step 3: FAISS Market Skill-Gap Analysis</h2>
-                    <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>Comparing explicit technical skills against target role job market requirements</p>
+                    <h2 style={{ fontSize: '24px', fontWeight: '800', letterSpacing: '-0.02em' }}>Step 3: FAISS Market Skill-Gap Analysis</h2>
+                    <p style={{ fontSize: '13.5px', color: 'var(--text-secondary)' }}>Comparing your technical skills against job market requirements for <strong>{activeGapData.target_role}</strong></p>
                   </div>
-                  <button onClick={() => setCurrentStep(4)} className="primary-btn" style={{ width: 'auto', padding: '0 24px', height: '44px' }}>
+                  <button onClick={() => setCurrentStep(4)} className="primary-btn" style={{ width: 'auto', padding: '0 28px', height: '48px', fontSize: '14px' }}>
                     View Personalized Roadmap →
                   </button>
                 </div>
 
-                <div className="card" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px' }}>
-                  <div>
-                    <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Target Role</div>
-                    <div style={{ fontSize: '20px', fontWeight: '800' }}>{activeGapData.target_role}</div>
+                {/* Metric Stat Cards Grid */}
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
+                  <div className="card" style={{ padding: '20px 24px' }}>
+                    <div style={{ fontSize: '12px', color: 'var(--text-muted)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Target Role</div>
+                    <div style={{ fontSize: '20px', fontWeight: '800', color: '#FFF', marginTop: '6px' }}>{activeGapData.target_role}</div>
                   </div>
-                  <div>
-                    <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Indexed Jobs Analyzed</div>
-                    <div style={{ fontSize: '20px', fontWeight: '800', color: 'var(--accent-cyan)' }}>{activeGapData.total_matched_jobs} Postings</div>
+                  <div className="card" style={{ padding: '20px 24px' }}>
+                    <div style={{ fontSize: '12px', color: 'var(--text-muted)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Indexed Jobs Analyzed</div>
+                    <div style={{ fontSize: '20px', fontWeight: '800', color: 'var(--accent-cyan)', marginTop: '6px' }}>{activeGapData.total_matched_jobs} Postings</div>
                   </div>
-                  <div>
-                    <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>Role Preparedness Score</div>
-                    <div style={{ fontSize: '24px', fontWeight: '800', color: 'var(--success-green)' }}>{activeGapData.match_score_percentage}%</div>
+                  <div className="card" style={{ padding: '20px 24px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <div style={{ fontSize: '12px', color: 'var(--text-muted)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Role Preparedness</div>
+                      <div style={{ fontSize: '22px', fontWeight: '800', color: 'var(--success-green)' }}>{activeGapData.match_score_percentage}%</div>
+                    </div>
+                    <div style={{ marginTop: '10px', height: '8px', background: 'rgba(255,255,255,0.08)', borderRadius: '10px', overflow: 'hidden' }}>
+                      <div style={{ width: `${activeGapData.match_score_percentage}%`, height: '100%', background: 'linear-gradient(90deg, #22C55E, #38BDF8)', borderRadius: '10px' }} />
+                    </div>
                   </div>
                 </div>
 
                 <div className="card">
-                  <h3 style={{ fontSize: '18px', fontWeight: '700', marginBottom: '16px' }}>Ranked Skill Gaps for {activeGapData.target_role}</h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                  <h3 style={{ fontSize: '18px', fontWeight: '700', marginBottom: '20px' }}>Ranked Market Skill Gaps for {activeGapData.target_role}</h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
                     {activeGapData.missing_skills_ranked.map((item, idx) => (
-                      <div key={idx} style={{ padding: '16px', borderRadius: '12px', background: 'var(--bg-dark)', border: '1px solid var(--border-muted)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                          <span style={{ fontWeight: 'bold', color: 'var(--primary-blue)' }}>#{idx + 1}</span>
-                          <div>
-                            <div style={{ fontWeight: 'bold' }}>{item.skill}</div>
-                            <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>Required in {item.frequency_count} of {activeGapData.total_matched_jobs} postings</div>
+                      <div key={idx} style={{ padding: '18px 20px', borderRadius: '14px', background: 'rgba(9, 13, 22, 0.7)', border: '1px solid var(--border-muted)', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                            <span style={{ width: '28px', height: '28px', borderRadius: '8px', background: 'rgba(79, 140, 255, 0.15)', border: '1px solid rgba(79, 140, 255, 0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: '13px', color: 'var(--primary-blue)' }}>
+                              #{idx + 1}
+                            </span>
+                            <div>
+                              <div style={{ fontWeight: '700', fontSize: '15px', color: '#FFF' }}>{item.skill}</div>
+                              <div style={{ fontSize: '12px', color: 'var(--text-secondary)', marginTop: '2px' }}>Required in {item.frequency_count} of {activeGapData.total_matched_jobs} analyzed job postings</div>
+                            </div>
                           </div>
+                          <div style={{ fontWeight: '800', fontSize: '14px', color: 'var(--accent-cyan)' }}>{item.demand_percentage}% Demand</div>
                         </div>
-                        <div style={{ fontWeight: 'bold', color: 'var(--accent-cyan)' }}>{item.demand_percentage}% Demand</div>
+                        <div style={{ height: '6px', width: '100%', background: 'rgba(255,255,255,0.06)', borderRadius: '10px', overflow: 'hidden' }}>
+                          <div style={{ width: `${item.demand_percentage}%`, height: '100%', background: 'linear-gradient(90deg, #4F8CFF, #38BDF8)', borderRadius: '10px' }} />
+                        </div>
                       </div>
                     ))}
                   </div>
@@ -607,15 +643,18 @@ Projects:
             )}
 
             {/* STEP 4: LEARNING ROADMAP */}
-            {currentStep === 4 && (
+            {currentStep === 4 && activeRoadmapData && (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                   <div>
-                    <h2 style={{ fontSize: '24px', fontWeight: '800' }}>Step 4: Personalized Learning Roadmap</h2>
-                    <p style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>{activeRoadmapData.duration_weeks}-Week Tailored Sprint Schedule for {targetRole}</p>
+                    <h2 style={{ fontSize: '24px', fontWeight: '800', letterSpacing: '-0.02em' }}>Step 4: Personalized Learning Roadmap</h2>
+                    <p style={{ fontSize: '13.5px', color: 'var(--text-secondary)' }}>{activeRoadmapData.duration_weeks}-Week Tailored Sprint Schedule for <strong>{targetRole}</strong></p>
                   </div>
-                  <div style={{ background: 'var(--card-dark)', border: '1px solid var(--border-muted)', padding: '10px 20px', borderRadius: '12px', fontSize: '14px', fontWeight: 'bold', color: 'var(--success-green)' }}>
-                    Progress: {calculateProgressPercent()}% Completed
+                  <div style={{ background: 'var(--card-dark)', border: '1px solid var(--border-muted)', padding: '10px 24px', borderRadius: '14px', display: 'flex', alignItems: 'center', gap: '14px' }}>
+                    <div>
+                      <div style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: '700', textTransform: 'uppercase' }}>Overall Progress</div>
+                      <div style={{ fontSize: '16px', fontWeight: '800', color: 'var(--success-green)' }}>{calculateProgressPercent()}% Completed</div>
+                    </div>
                   </div>
                 </div>
 
@@ -624,16 +663,24 @@ Projects:
                     {activeRoadmapData.weekly_schedule.map((weekItem) => {
                       const isDone = !!completedWeeks[weekItem.week];
                       return (
-                        <div key={weekItem.week} style={{ padding: '20px', borderRadius: '16px', background: isDone ? 'rgba(34,197,94,0.05)' : 'var(--card-secondary)', border: '1px solid var(--border-muted)' }}>
-                          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '12px' }}>
-                            <button onClick={() => toggleWeekCompletion(weekItem.week)} style={{ width: '24px', height: '24px', borderRadius: '6px', border: '1px solid var(--primary-blue)', background: isDone ? 'var(--success-green)' : 'transparent', color: '#000', cursor: 'pointer', fontWeight: 'bold' }}>
-                              {isDone ? '✓' : ''}
-                            </button>
-                            <span style={{ fontSize: '12px', fontWeight: 'bold', color: 'var(--accent-cyan)' }}>WEEK {weekItem.week}</span>
-                            <h4 style={{ fontSize: '16px', fontWeight: 'bold', textDecoration: isDone ? 'line-through' : 'none' }}>{weekItem.title}</h4>
+                        <div key={weekItem.week} style={{ padding: '20px 24px', borderRadius: '16px', background: isDone ? 'rgba(34,197,94,0.06)' : 'rgba(26, 34, 52, 0.6)', border: isDone ? '1px solid rgba(34,197,94,0.3)' : '1px solid var(--border-muted)', transition: 'var(--transition)' }}>
+                          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                              <button
+                                onClick={() => toggleWeekCompletion(weekItem.week)}
+                                style={{ width: '28px', height: '28px', borderRadius: '8px', border: isDone ? 'none' : '1px solid var(--primary-blue)', background: isDone ? 'var(--success-green)' : 'rgba(79, 140, 255, 0.1)', color: isDone ? '#090D16' : 'var(--primary-blue)', cursor: 'pointer', fontWeight: 'bold', fontSize: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s ease' }}
+                              >
+                                {isDone ? '✓' : ''}
+                              </button>
+                              <span style={{ padding: '3px 10px', borderRadius: '6px', background: 'rgba(56, 189, 248, 0.15)', color: 'var(--accent-cyan)', fontSize: '12px', fontWeight: '800', letterSpacing: '0.05em' }}>
+                                WEEK {weekItem.week}
+                              </span>
+                              <h4 style={{ fontSize: '16px', fontWeight: '700', color: '#FFF', textDecoration: isDone ? 'line-through' : 'none', opacity: isDone ? 0.7 : 1 }}>{weekItem.title}</h4>
+                            </div>
+                            {isDone && <span style={{ fontSize: '12px', color: 'var(--success-green)', fontWeight: '700' }}>Completed ✓</span>}
                           </div>
-                          <div style={{ fontSize: '13px', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
-                            <strong>Project:</strong> 🛠️ {weekItem.actionable_project}
+                          <div style={{ fontSize: '13.5px', color: 'var(--text-secondary)', lineHeight: '1.6', paddingLeft: '40px' }}>
+                            <strong style={{ color: '#FFF' }}>Capstone Project:</strong> 🛠️ {weekItem.actionable_project}
                           </div>
                         </div>
                       );

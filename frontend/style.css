@@ -4,27 +4,27 @@
 
 /* 1. CSS Custom Properties / Color Tokens */
 :root {
-  --bg-dark: #09090B;
-  --card-dark: #111827;
-  --card-secondary: #1A2234;
+  --bg-dark: #090D16;
+  --card-dark: rgba(17, 24, 39, 0.75);
+  --card-secondary: rgba(26, 34, 52, 0.75);
   --primary-blue: #4F8CFF;
   --accent-cyan: #38BDF8;
   --purple: #7C3AED;
   --success-green: #22C55E;
-  --border-muted: rgba(255, 255, 255, 0.08);
-  --border-hover: rgba(79, 140, 255, 0.5);
+  --border-muted: rgba(255, 255, 255, 0.09);
+  --border-hover: rgba(79, 140, 255, 0.4);
   --text-primary: #FFFFFF;
   --text-secondary: #94A3B8;
   --text-muted: #64748B;
   
   --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  --radius-lg: 16px;
+  --radius-lg: 18px;
   --radius-md: 14px;
-  --radius-sm: 8px;
+  --radius-sm: 10px;
   --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  --shadow-glow: 0 0 25px rgba(79, 140, 255, 0.25);
-  --shadow-card: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
-  --shadow-dropdown: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(79, 140, 255, 0.3);
+  --shadow-glow: 0 0 30px rgba(79, 140, 255, 0.3);
+  --shadow-card: 0 20px 40px -15px rgba(0, 0, 0, 0.5), inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  --shadow-dropdown: 0 24px 48px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(79, 140, 255, 0.3);
 }
 
 /* 2. Global Resets & Base Styles */
@@ -47,8 +47,10 @@ body {
   display: flex;
   flex-direction: column;
   background-image: 
-    radial-gradient(circle at 20% 10%, rgba(79, 140, 255, 0.08) 0%, transparent 45%),
-    radial-gradient(circle at 80% 80%, rgba(56, 189, 248, 0.07) 0%, transparent 45%);
+    radial-gradient(circle at 15% 15%, rgba(79, 140, 255, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 85% 75%, rgba(124, 58, 237, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(56, 189, 248, 0.05) 0%, transparent 60%);
+  background-attachment: fixed;
 }
 
 /* 3. Layout Container */
@@ -232,12 +234,12 @@ body {
   margin: 0 auto;
 }
 
-/* 6. Main 35/65 Layout */
+/* 6. Main Symmetric Layout */
 .main-grid {
   display: grid;
-  grid-template-columns: 35% 1fr;
-  gap: 32px;
-  align-items: start;
+  grid-template-columns: 380px 1fr;
+  gap: 28px;
+  align-items: stretch;
   margin-bottom: 64px;
 }
 
@@ -253,16 +255,22 @@ body {
   gap: 24px;
 }
 
-/* 7. Premium Cards */
+/* 7. Premium Glassmorphic Cards */
 .card {
   background: var(--card-dark);
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-lg);
   padding: 28px;
   box-shadow: var(--shadow-card);
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   position: relative;
   z-index: 1;
+  transition: var(--transition);
+}
+
+.card:hover {
+  border-color: rgba(79, 140, 255, 0.3);
 }
 
 /* Card containing active dropdown must sit above subsequent cards */
@@ -271,26 +279,27 @@ body {
 }
 
 .card-title {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   color: var(--text-primary);
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 .title-dot {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: var(--primary-blue);
-  box-shadow: 0 0 10px var(--primary-blue);
+  box-shadow: 0 0 12px var(--primary-blue);
 }
 
 .card-subtitle {
-  font-size: 14px;
+  font-size: 13.5px;
   color: var(--text-secondary);
+  line-height: 1.5;
   margin-bottom: 20px;
 }
 
